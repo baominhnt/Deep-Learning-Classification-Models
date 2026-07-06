@@ -61,7 +61,7 @@ This was particularly useful for EfficientNet-B0, where slow early-epoch accurac
 
 | Setting        | Value |
 |----------------|-------|
-| Optimizer      | AdamW |
+| Optimizer      | Adam |
 | Learning rate  | 0.001 |
 | Weight decay   | 1e-4 |
 | Scheduler      | CosineAnnealingLR |
