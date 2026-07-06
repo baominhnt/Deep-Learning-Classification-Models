@@ -111,3 +111,11 @@ python inference.py --config configs/<config_name>.yaml --checkpoint <path_to_ch
 ---
 
 *Built as a learning exercise in implementing CNN architectures from first principles, with parameter-count matching against `torchvision` used throughout as the architectural correctness benchmark.*
+
+## 📬 Contact
+
+For questions, collaboration, or feedback: **Tran Bao Minh "James" Nguyen**  
+Data Analyst & Dashboard Designer  
+
+- [LinkedIn](https://www.linkedin.com/in/tran-bao-minh-nguyen-296b01333/)  
+- [Portfolio & More Projects](https://baominhnt.github.io/tbmnguyen.com/index.html)
