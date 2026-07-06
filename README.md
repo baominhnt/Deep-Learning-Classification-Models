@@ -18,7 +18,7 @@ A pretrained (transfer learning) DenseNet121 baseline achieves 80%+ accuracy and
 
 - **Task**: 15-class sports ball image classification
 - **Size**: ~9,000 images
-- **Source**: [Kaggle](https://www.kaggle.com/)
+- **Source**: [Kaggle]([https://www.kaggle.com/](https://www.kaggle.com/datasets/samuelcortinhas/sports-balls-multiclass-image-classification))
 - **Split**: Pre-split train/test folders from the source dataset, further divided into train/val/test using `random_split` with a seeded generator (separate `ImageFolder` instances are used per split to keep transforms isolated)
 
 ### Data augmentation notes
