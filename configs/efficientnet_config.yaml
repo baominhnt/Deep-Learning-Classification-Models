@@ -1,0 +1,17 @@
+data:
+  dataset_handle: "samuelcortinhas/sports-balls-multiclass-image-classification"
+  download_dir: "./data/raw_data"
+  batch_size: 32            
+  num_workers: 4
+  train_split_ratio: 0.8
+  seed: 42
+
+model:
+  name: "efficientnet"
+  width_mult: 1.0
+
+train:
+  epochs: 40
+  learning_rate: 0.00025     
+  device: "cuda"
+  checkpoint_dir: "./checkpoints"

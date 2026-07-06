@@ -1,0 +1,4 @@
+data:
+  dataset_handle: "samuelcortinhas/sports-balls-multiclass-image-classification"
+  download_dir: "./data/raw_data"  
+  batch_size: 32
