@@ -45,7 +45,7 @@ Each architecture was built and validated using a consistent process:
 1. **Conceptual grounding** — understand the architecture from the original paper before writing code.
 2. **Component-first implementation** — smallest building block → block group → full network.
 3. **Sanity checks** — output shape verification and parameter count comparison against `torchvision`'s implementation (the gold-standard correctness check used throughout).
-4. **Training** — AdamW optimizer with `CosineAnnealingLR` scheduling, kept consistent across architectures for fair comparison.
+4. **Training** — Adam optimizer with `CosineAnnealingLR` scheduling, kept consistent across architectures for fair comparison.
 
 ### Debugging approach
 
